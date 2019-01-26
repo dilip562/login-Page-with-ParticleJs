@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $("#hideLogin").click(function(){
+        $(".loginPannel").hide();
+        $(".registerContainer").show();
+    });
+    $("#hideReg").click(function(){
+        $(".loginPannel").show();
+        $(".registerContainer").hide();
+    });
+});
